@@ -133,6 +133,7 @@ export complexoutgoingmat, incidencematgraph, linkageclasses, stronglinkageclass
        terminallinkageclasses, deficiency, subnetworks
 export linkagedeficiencies, isreversible, isweaklyreversible
 export conservationlaws, conservedquantities, conservedequations, conservationlaw_constants
+export iscomplexbalanced, isdetailedbalanced, robustspecies
 
 # registers CRN specific functions using Symbolics.jl
 include("registered_functions.jl")
