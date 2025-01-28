@@ -4,6 +4,11 @@ reaction networks can often have their steady-state properties known in advance,
 simply by analyzing the graph structure of the network. The subfield of chemistry
 and math studying this relationship is called [Chemical Reaction Network Theory](https://en.wikipedia.org/wiki/Chemical_reaction_network_theory).
 
+In this tutorial we introduce several of the Catalyst API functions for network
+analysis. A complete summary of the exported functions is given in the API
+section
+[`Network-Analysis-and-Representations`](https://docs.sciml.ai/Catalyst/stable/api/catalyst_api/#Network-Analysis-and-Representations).
+
 Broadly, results from chemical reaction network theory relate a purely
 graph-structural property (e.g. deficiency) to dynamical properties of the reaction system
 (e.g. complex balance). We'll now illustrate some of the types of network properties that 
@@ -269,14 +274,10 @@ and,
  plot_complexes(subnets[2])
 ```
 
-<<<<<<< HEAD:docs/src/network_analysis/crnt.md
 ![subnetwork_2](../assets/complex_subnets2.svg)
 
 
-# [Deficiency of the network](@id network_analysis_structural_aspects_deficiency)
-=======
 #### [Deficiency of the network](@id network_analysis_structural_aspects_deficiency)
->>>>>>> origin:docs/src/model_creation/network_analysis.md
 A famous theorem in Chemical Reaction Network Theory, the Deficiency Zero
 Theorem [^1], allows us to use knowledge of the net stoichiometry matrix and the
 linkage classes of a *mass action* [RRE ODE system](@ref network_analysis_matrix_vector_representation) to draw conclusions about the
