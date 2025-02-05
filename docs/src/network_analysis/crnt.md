@@ -221,7 +221,6 @@ to provide insight into possible steady state and time-dependent properties of
 RRE ODE models and stochastic chemical kinetics models. We'll now illustrate
 some of the types of network properties that Catalyst can determine, using the
 reaction complex representation in these calculations.
->>>>>>> origin:docs/src/model_creation/network_analysis.md
 
 Consider the following reaction network.
 ```@example s1
@@ -497,10 +496,6 @@ Let's check that the reaction network defined above is complex balanced by provi
 ```@example s1
 rates = Dict([:k1 => 2.4, :k2 => 4., :k3 => 10., :k4 => 5.5, :k5 => 0.4])
 iscomplexbalanced(rn, rates)
-```
-
-Complex balance obtains for some sets of rates but not others: 
-```@example s1
 ```
 
 We can do a similar check for detailed balance. Let us make the reaction network 
